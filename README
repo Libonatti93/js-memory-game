@@ -1,0 +1,29 @@
+This game involves finding matching pairs of cards by clicking on the cards to flip them over. The game automatically restarts when all the cards are matched.
+
+Project Structure
+HTML - Basic structure for the game board.
+CSS - Styles for the look and feel of the game.
+JavaScript - Logic for shuffling the cards, managing clicks, and checking for pairs.
+
+
+Code Description
+HTML: Defines the basic structure for the game board, where cards will be dynamically inserted by JavaScript.
+
+CSS: Applies styles to the game, including card flip effects, grid layout, and visual differentiation between card faces.
+
+JavaScript:
+
+Card Array: Defines cards with pairs of images identified by a name and an image URL.
+createBoard() function: Generates the game board, duplicating and shuffling the cards.
+flipCard() function: Manages the clicking on the cards and controls the "flip" state of the cards.
+checkForMatch() function: Checks if the flipped cards form a pair.
+disableCards() function: Disables the cards if they are the same.
+unflipCards() function: Flips the cards if they are not the same, with a delay for the player to see the cards.
+resetBoard() function: Resets the game state to allow further play.
+resetGame() function: Restarts the game completely when all cards have been matched.
+How to Play
+Open the index.html file in your browser.
+Click on a card to flip it over.
+Find the matching pair for each card.
+The game ends when all the cards have been matched.
+This code creates a simple, functional memory game that is ideal for learning or as a basis for a larger project.
